@@ -1,0 +1,84 @@
+.nt_thm {
+    background-color: black;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.nt_thm .header__logo {
+    color: #fff;
+}
+
+.nt_thm .header__nav_item:hover {
+    color: #fff;
+}
+
+.nt_thm .toggle {
+    border: 2px solid  #fff;
+}
+
+.nt_thm .header__nav_bnt span {
+    background-color: #fff;
+}
+
+/* INTRO */
+
+.nt_thm .intro__wrapper {
+    height: 100%;
+}
+
+/* SERVICE */ 
+
+.nt_thm .service__sub-header, 
+.service__direct__title, 
+.direct__design_img,
+.direct__web_img,
+.direct__tools_img,
+.service__direct__title {
+    filter: invert(100%);
+}
+
+
+/* PROJECTS */
+
+.nt_thm .project__sub-header,
+.project__direct__title,
+.project__item__title,
+.roject__advant_item,
+.project__advant_img  {
+    filter: invert(100%);
+} 
+
+.nt_thm .info:hover {
+    filter: invert(100%);
+}
+
+/* FOOTER BOTTOM */
+
+.nt_thm .link_tw,
+.link_pnt,
+.link_fb,
+.link_gl {
+    filter: invert(100%);
+}
+
+.nt_thm .link_tw:hover,
+.link_fb:hover,
+.link_pnt:hover,
+.link_gl:hover {
+    filter: invert(0%); 
+}
+
+.nt_thm .day_theme {
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 50%;
+}
